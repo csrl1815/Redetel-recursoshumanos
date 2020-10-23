@@ -1,0 +1,1094 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/vendor/charts/chartist-bundle/chartist.css">
+    <link rel="stylesheet" href="assets/vendor/charts/morris-bundle/morris.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
+    <title>Redetel S.A/Recursos Humanos</title>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+        <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand" href="index.html">REDETEL S.A</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item">
+                            <div id="custom-search" class="top-search-bar">
+                                <input class="form-control" type="text" placeholder="Search..">
+                            </div>
+                        </li>
+                      
+                        <li class="nav-item dropdown connection">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-fw fa-th"></i> </a>
+                            <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
+                                <li class="connection-list">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/github.png" alt="" > <span>Informacion personal</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/dribbble.png" alt="" > <span>Nómina</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/dropbox.png" alt="" > <span>Prestamos</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/bitbucket.png" alt=""> <span>Cartas</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/mail_chimp.png" alt="" ><span>Horas extra</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/slack.png" alt="" > <span>Permisos</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="conntection-footer"><a href="#">Más</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav-user">
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/avatar-1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                                <div class="nav-user-info">
+                                    <h5 class="mb-0 text-white nav-user-name">John Abraham </h5>
+                                    <span class="status"></span><span class="ml-2">Disponible</span>
+                                </div>
+                                <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Informacion personal</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Ajustes</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Salir</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end navbar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Informacion</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Informacion personal<span class="badge badge-success">6</span></a>
+                                <div id="submenu-1" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Personal de Redetel S.A al día de hoy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="nuevo_personal.html">Nuevo personal</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="info_general.html">Información general</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="contacto_emergencia.html">Contactos de emergencia</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="insumos.html">Insumos</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="cv.html">Curriculum Vitae</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="nomina.html">Nómina</a>
+                                        </li>
+                            <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="prestamos.html">Prestamos</a>
+                                        </li>
+                          <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="cartas.html">Cartas</a>
+                                        </li>
+                            <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="horas_extra.html">Horas extra</a>
+                                        </li>
+                                
+                            <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="incapacidades.html">Incapacidades</a>
+                                        </li>
+                            <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="permisos.html">Permisos</a>
+                                        </li>
+                            <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="vacaciones.html">Vacaciones</a>
+                                        </li>
+                            
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <!-- ============================================================== -->
+                    <!-- pageheader  -->
+                    <!-- ============================================================== -->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">Personal de Redetel S.A a día de hoy</h2>
+                                <p class="pageheader-text">Redetel S.A</p>
+                                <div class="page-breadcrumb">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Informacion personal</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">Personal de Redetel S.A a día de hoy</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- end pageheader  -->
+                    <!-- ============================================================== -->
+                   
+                            <!-- ============================================================== -->
+                      
+                            <!-- ============================================================== -->
+
+                                          <!-- recent orders  -->
+                            <!-- ============================================================== -->
+                            <div class="col-xl-9 col-lg-12 col-md-6 col-sm-12 col-12">
+                                <div class="card">
+                                    <h5 class="card-header">Personal de Redetel S.A</h5>
+                                    <div class="card-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead class="bg-light">
+                                                    <tr class="border-0">
+                                                        <th class="border-0">#</th>
+                                                        <th class="border-0">Foto</th>
+                                                        <th class="border-0">Nombre completo</th>
+                                                        <th class="border-0">Numero de cédula o pasaporte</th>
+                                                        <th class="border-0">Fecha de nacimiento</th>
+                                                        <th class="border-0">Proyecto</th>
+                                                        <th class="border-0">Telefono personal</th>
+                                                        <th class="border-0">Licencia</th>
+                                                        <th class="border-0">Fecha de ingreso a la empresa</th>
+                                                        <th class="border-0">Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>MARIA TERESA BENAVIDEZ ORTIZ </td>
+                                                        <td>206140843</td>
+                                                        <td>12/10/1985</td>
+                                                        <td>ADMINISTRATIVO</td>
+                                                        <td>88168346</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic-2.jpg" alt="user" class="rounded" width="60"></div>
+                                                        </td>
+                                                        <td>GABRIELA VANESSA GARCIA ASTUA</td>
+                                                        <td>110160175</td>
+                                                        <td>5/10/1978</td>
+                                                        <td>ADMINISTRATIVO</td>
+                                                        <td>83505111</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic-3.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>KATHERINE CHRISTIE LOPEZ CHAVARRIA</td>
+                                                        <td>603600376</td>
+                                                        <td>10/11/1986</td>
+                                                        <td>CLARO HUAWEI</td>
+                                                        <td>87466651</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic-4.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ESTEFANY DEL SOCORRO REYES OBANDO</td>
+                                                        <td>C02218975</td>
+                                                        <td>10/9/2000</td>
+                                                        <td>CLARO HUAWEI</td>
+                                                        <td>62828849</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>YASSER ISACC REYES SABORIO</td>
+                                                        <td>209510186</td>
+                                                        <td>10/10/1990</td>
+                                                        <td>CLARO HUAWEI</td>
+                                                        <td>84673114</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/adrian guzman barboza 108550857.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ADRIAN GUZMAN BARBOZA</td>
+                                                        <td>108550857</td>
+                                                        <td>25/6/1973</td>
+                                                        <td>CLARO HUAWEI</td>
+                                                        <td>50034026</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>LUCIA LISSETH VILLATORO ALVARADO</td>
+                                                        <td>A50371668</td>
+                                                        <td>8/6/2001</td>
+                                                        <td>CLARO HUAWEI</td>
+                                                        <td>62824749</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>8</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/GUILLERMO GOMEZ AGUILAR 107430490.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>GUILLERMO GOMEZ AGUILAR</td>
+                                                        <td>107430490</td>
+                                                        <td>20/3/1969</td>
+                                                        <td>CLARO HUAWEI</td>
+                                                        <td>72548664</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>9</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>JOSE FABIO BOLAÑOS RODRIGUEZ</td>
+                                                        <td>208130511</td>
+                                                        <td>13/1/2001</td>
+                                                        <td>CLARO HUAWEI</td>
+                                                        <td>89565325</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>10</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>GUSTAVO SOLORZANO VASQUEZ</td>
+                                                        <td>106060873</td>
+                                                        <td>17/7/1963</td>
+                                                        <td>REDETEL</td>
+                                                        <td>70776947</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>EDDIE WILSON ESPINOZA ALFARO</td>
+                                                        <td>603100948</td>
+                                                        <td>18/7/1980</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>83235511</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>12</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>TATIANA ANDREA SOLIS CUBERO</td>
+                                                        <td>113430115</td>
+                                                        <td>1/2/1988</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>87050830</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>13</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/ANDRES HERRERA DELGADO 111420080.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ANDRES DE LA TRINIDAD HERRERA DELGADO</td>
+                                                        <td>111420080</td>
+                                                        <td>14/6/1982</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>60299043</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>14</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/ALEXIS CUBILLO HERNANDEZ 110910358.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ALEXIS GERARDO CUBILLO HERNANDEZ</td>
+                                                        <td>110910358</td>
+                                                        <td>22/12/1980</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>61021353</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>15</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/RAMIRO CUBILLO HERNANDEZ 105160968.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>RAMIRO CUBILLO HERNANDEZ</td>
+                                                        <td>105160968</td>
+                                                        <td>12/9/1959</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>87291014</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>16</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/ROBERTO ELI HERNANDEZ SALAZAR 155819100703.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ROBERTO ELI HERNANDEZ SALAZAR</td>
+                                                        <td>155819100703</td>
+                                                        <td>22/8/1973</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>62668740</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>17</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/JIMMY RICARDO LARA  C02138553.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>JIMMY RICARDO LARA</td>
+                                                        <td>C02138553</td>
+                                                        <td>7/9/1990</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>63945305</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>18</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/WALTER FALLAS BURGOS 205730765.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>WALTER JESUS FALLAS BURGOS</td>
+                                                        <td>205730765</td>
+                                                        <td>21/7/1982</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>64790458</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>19</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/JOSE HERNALDO SOZA CONDEGA 155808472208.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>JOSE HERNALDO SOZA CONDEGA</td>
+                                                        <td>155808472208</td>
+                                                        <td>7/4/1988</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>62186485</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>20</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>GABRIEL DIAZ JIMENEZ</td>
+                                                        <td>503360413</td>
+                                                        <td>4/11/1983</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>86816913</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                      <tr>
+                                                        <td>21</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>GABRIEL DIAZ JIMENEZ</td>
+                                                        <td>503360413</td>
+                                                        <td>4/11/1983</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>86816913</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>22</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/marco_antonio_nuñez.jpeg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>MARCO ANTONIO NUÑEZ TORRES</td>
+                                                        <td>115800112</td>
+                                                        <td>25/8/1994</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>83033916</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>23</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/CESAR ROCHA MEJIA 155806090610.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>CESAR AUGUSTO ROCHA MEJIA</td>
+                                                        <td>155806090610</td>
+                                                        <td>21/1/1978</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>61534190</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>24</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>KEVIN ALVAREZ ALVAREZ</td>
+                                                        <td>C02694622</td>
+                                                        <td>19/9/2000</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>25</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>GERMAN CHACON AGUILERA</td>
+                                                        <td>401170531</td>
+                                                        <td>5/7/1958</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>88671251</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>26</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/WILLIAM GRANADOS MORALES 111650951.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>WILLIAM GRANADOS MORALES</td>
+                                                        <td>111650951</td>
+                                                        <td>18/12/1982</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>85169728</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>27</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/OSCAR EDUARDO LIZANO OROZCO 402330918.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>OSCAR EDUARDO LIZANO OROZCO</td>
+                                                        <td>402330918</td>
+                                                        <td>8/7/1994</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>62921368</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>28</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/ANDRES VINICIO OROZCO VIQUEZ 402280105.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ANDRES VINICIO OROZCO VIQUEZ</td>
+                                                        <td>402280105</td>
+                                                        <td>14/8/1995</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>72743413</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>29</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/FELIX MARIN GUILLEN 113280789.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>FELIX ALONSO MARIN GUILLEN</td>
+                                                        <td>113280789</td>
+                                                        <td>29/9/1987</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>86626628</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>30</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>GERARDO FRANCISCO ALVAREZ GULLOCK</td>
+                                                        <td>112630089</td>
+                                                        <td>27/11/1985</td>
+                                                        <td>HUAWEI</td>
+                                                        <td>86121224</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>31</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>MELVIN DE JESUS ZUÑIGA ZUÑIGA</td>
+                                                        <td>155814373913</td>
+                                                        <td>25/6/1976</td>
+                                                        <td>HUAWEI FIBRA</td>
+                                                        <td>60212576</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>32</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/YADER ALARCON MEJIA 155825834513.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>YADER ANTONIO ALARCON MEJIA</td>
+                                                        <td>155825834513</td>
+                                                        <td>8/12/1980</td>
+                                                        <td>HUAWEI FIBRA</td>
+                                                        <td>62159247</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>33</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/alvaro araya roman 107040286.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ALVARO ENRIQUE ARAYA ROMAN</td>
+                                                        <td>107040286</td>
+                                                        <td>7/10/1967</td>
+                                                        <td>HUAWEI FIBRA</td>
+                                                        <td>89605619</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>34</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/RANDAL SEQUEIRA RAMIREZ 108280841.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>RANDALL SEQUEIRA RAMIREZ</td>
+                                                        <td>108280841</td>
+                                                        <td>11/1/1972</td>
+                                                        <td>HUAWEI FIBRA</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>35</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/DAVID CHOW GARCIA 801150030.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>DAVID ANTONIO CHOW GARCIA</td>
+                                                        <td>801150030</td>
+                                                        <td>27/7/1987</td>
+                                                        <td>HUAWEI FIBRA</td>
+                                                        <td>84466342</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>36</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/JOSE EMILIANO GONZALEZ AVILA 206880303.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>JOSE EMILIANO GONZALEZ AVILA</td>
+                                                        <td>206880303</td>
+                                                        <td>7/2/1991</td>
+                                                        <td>HUAWEI FIBRA</td>
+                                                        <td>88949310</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>37</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/EDDY ZARATE VILCHEZ 155828876209.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>EDDIE ROBERTO ZARATE VILCHEZ</td>
+                                                        <td>155828876209</td>
+                                                        <td>10/6/1983</td>
+                                                        <td>HUAWEI FIBRA</td>
+                                                        <td>84438875</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>38</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/FRANKLIN BARTOLO CRUZ C02668859.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>FRANKLIN BARTOLO CRUZ</td>
+                                                        <td>C02668859</td>
+                                                        <td>1/5/1998</td>
+                                                        <td>HUAWEI FIBRA</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>39</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>EDWIN JAVIER SALAZAR SOLIS</td>
+                                                        <td>106670677</td>
+                                                        <td>4/1/1966</td>
+                                                        <td>REDETEL</td>
+                                                        <td>60558340</td>
+                                                        <td>SI</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>40</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>MARIO MARTINEZ</td>
+                                                        <td>A02703264</td>
+                                                        <td>28/10/1965</td>
+                                                        <td>REDETEL</td>
+                                                        <td>60558651</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>41</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/ERMIN ANTONIO PEREZ D01991371.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ERMIN ANTONIO PEREZ</td>
+                                                        <td>D01991371</td>
+                                                        <td>13/9/1983</td>
+                                                        <td>REDETEL</td>
+                                                        <td>62380228</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>42</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/JIMMY PEREZ LACAYO 155823686728.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>JIMMY ANTONIO PEREZ LACAYO</td>
+                                                        <td>155823686728</td>
+                                                        <td>11/5/1983</td>
+                                                        <td>REDETEL</td>
+                                                        <td>60456546</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>43</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ANDRES GONZALEZ	MADRIZ</td>
+                                                        <td>116190293</td>
+                                                        <td>9/12/1995</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>85161542</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>44</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/OSCAR RAMOS RODRIGUEZ C01587495.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>OSCAR IVAN RAMOS RODRIGUEZ</td>
+                                                        <td>C01587495</td>
+                                                        <td>8/7/1987</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>60770033</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>45</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/EDWIN JAVIER NAVARRO PEREZ 110150551.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>EDWIN JAVIER NAVARRO PEREZ</td>
+                                                        <td>110150551</td>
+                                                        <td>10/9/1978</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>62381127</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>46</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/ELMER JESUS FUENTES GONZALEZ  155821932123.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ELMER JESUS FUENTES GONZALEZ</td>
+                                                        <td>155821932123</td>
+                                                        <td>3/8/1985</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>47</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>AARON SEQUEIRA MORALES</td>
+                                                        <td>206810781</td>
+                                                        <td>23/1/1991</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>87306345</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-nosuccess mr-1"></span>Inactivo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>48</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/MILTON ZELEDONIO MARTINEZ LOPEZ  C01619209.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>MILTON ZELEDONIO MARTINEZ LOPEZ</td>
+                                                        <td>155831822330</td>
+                                                        <td>17/7/1989</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>70380570</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>49</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/MARVIN FABRICIO MEZA CONDEGA C02537435.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>MARVIN FABRICIO MEZA CONDEGA</td>
+                                                        <td>C02537435</td>
+                                                        <td>7/8/1997</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>62851208</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>50</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>JOSE DANIEL LOPEZ LEON</td>
+                                                        <td>C02123565</td>
+                                                        <td>12/10/1997</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>71908843</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>51</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/URIEL CERDA CERDA 155818783022.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>URIEL JESUS CERDA CERDA</td>
+                                                        <td>155818783022</td>
+                                                        <td>2/10/1980</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>64742174</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>52</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/LUIS ALEJANDRRO GOMEZ CASCANTE  303840922.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>LUIS ALEJANDRO CASCANTE	GOMEZ</td>
+                                                        <td>303840922</td>
+                                                        <td>31/12/1982</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>84092381</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>53</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/JONATHAN ISSAC MARADIAGA HERNANDEZ 116400890.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>JONATHAN ISAAC MARADIAGA HERNANDEZ</td>
+                                                        <td>116400890</td>
+                                                        <td>5/5/1990</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>62904460</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>54</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/EUSEBIO RODRIGUEZ BRIZUELA C02499924.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>EUSEBIO RODRIGUEZ BRIZUELA</td>
+                                                        <td>C02499924</td>
+                                                        <td>5/5/1965</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>55</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/FAUSTO MISAEL FUENTES HERRERA C02699389.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>FAUSTO FUENTES HERRERA</td>
+                                                        <td>C02699389</td>
+                                                        <td>1/12/1989</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>72377684</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>56</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/RAFAEL PEREZ HERNANDEZ 203940701.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>RAFAEL ANGEL PEREZ HERNANDEZ</td>
+                                                        <td>203940701</td>
+                                                        <td>28/5/1964</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>57</td>
+                                                        <td>
+                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                        </td>
+                                                        <td>ERLING LANZA LOPEZ</td>
+                                                        <td>C01232221</td>
+                                                        <td>5/5/1993</td>
+                                                        <td>REDETEL FIBRA</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                        <td>N/A </td>
+                                                        <td><span class="badge-dot badge-success mr-1"></span>Activo</td>
+                                                    </tr>
+                         
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ============================================================== -->
+                            <!-- end recent orders  -->
+
+    
+                            
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <div class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                             Copyright © 2020 <a href="https://colorlib.com/wp/">REDETEL S.A</a>.
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="text-md-right footer-links d-none d-sm-block">
+                                <a href="javascript: void(0);">About</a>
+                                <a href="javascript: void(0);">Support</a>
+                                <a href="javascript: void(0);">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- end footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- end wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <!-- jquery 3.3.1 -->
+    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <!-- bootstap bundle js -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- slimscroll js -->
+    <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <!-- main js -->
+    <script src="assets/libs/js/main-js.js"></script>
+    <!-- chart chartist js -->
+    <script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+    <!-- sparkline js -->
+    <script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+    <!-- morris js -->
+    <script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+    <script src="assets/vendor/charts/morris-bundle/morris.js"></script>
+    <!-- chart c3 js -->
+    <script src="assets/vendor/charts/c3charts/c3.min.js"></script>
+    <script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+    <script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
+    <script src="assets/libs/js/dashboard-ecommerce.js"></script>
+</body>
+ 
+</html>
